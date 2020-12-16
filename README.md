@@ -1,4 +1,4 @@
-# Handwritten-Number-Recognition-using-Machine-Learning-and-GUI
+# Handwritten-Number-Recognition-using-Deep-Learning-PyTorch-and-GUI
 
 There are two main folders:
   1. Neural Network Development - It is the main bundle of programs for training, evaluation and testing of the neural network to be used by the main application
