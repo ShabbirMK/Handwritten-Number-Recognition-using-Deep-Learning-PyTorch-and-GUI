@@ -19,9 +19,9 @@ The basic commands are:
 	* Gives a snapshot of the dataset images, the number specifies the count of the images to be displayed
 
 Default values:
-	1. action = test
-	2. c = './trainednn.pt'
-	3. againstMNIST = False
-	4. count = 5
+	* action = test
+	* c = './trainednn.pt'
+	* againstMNIST = False
+	* count = 5
 
 Final Application: It makes use of openCV to get the ROI out of the input image to segregate the image into multiple images each consisting of one image which would be individually predicted by the neural network. This process of getting the ROI can be done either using Contours or a pre-trained HAAR Classifier. The application is developed using Tkinter
