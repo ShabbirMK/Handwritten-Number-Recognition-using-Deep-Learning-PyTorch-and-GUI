@@ -24,4 +24,4 @@ Default values:
 * againstMNIST = False
 * count = 5
 
-Final Application: It makes use of openCV to get the ROI out of the input image to segregate the image into multiple images each consisting of one image which would be individually predicted by the neural network. This process of getting the ROI can be done either using Contours or a pre-trained HAAR Classifier. The application is developed using Tkinter
+Final Application: It makes use of openCV to get the ROI out of the input image to segregate the image into multiple images each consisting of one image which would be individually predicted by the neural network. This process of getting the ROI can be done either using Contours or a pre-trained HAAR Classifier. The application is developed using Tkinter (The automated option is implemented while the manual option yet remaining).
