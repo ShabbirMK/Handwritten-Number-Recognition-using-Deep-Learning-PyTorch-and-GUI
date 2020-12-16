@@ -1,0 +1,21 @@
+python project.py --action=train					
+	--> Trains an NN of 128-64 nodes using backpropagation using 25 iterations
+
+python project.py --action=evaluate --c="./trainednn.pt"
+	--> Evaluates the specified NN against the MNIST Validation Dataset
+
+python project.py --action=test	--againstMNIST="True" --c="./trainednn.pt"
+	--> Tests the specified NN against a random image from the MNIST Dataset
+
+python project.py --action=test --c="./trainednn.pt" --testimage="./1.jpg"
+	--> Tests the specified NN against a  user-desired image formatted according to MNIST Dataset images
+
+python project.py --action=view --count=5
+	--> Gives a snapshot of the dataset images, the number specifies the count of the images to be displayed
+
+
+Default values:
+	--> action = test
+	--> c = './trainednn.pt'
+	--> againstMNIST = False
+	--> count = 5
